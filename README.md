@@ -20,5 +20,6 @@ module load igmm/bac/nextflow/22.04.0.5697
 
 * Run pipeline
 ~~~
+export NXF_SINGULARITY_CACHEDIR=/exports/igmm/eddie/BioinformaticsResources/nfcore/singularity-images
 $ nextflow run ggrimes/oligostan --fasta test.fasta --outdir results -profile eddie
 ~~~
